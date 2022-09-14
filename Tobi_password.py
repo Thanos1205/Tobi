@@ -50,8 +50,6 @@
 #
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
-image = mpimg.imread('pic.png')
-plt.imshow(image)
 
 input("\nThanks for helping me Mr. ... ... Tomatoehead? <enter>")
 input('\nAnywhooo. To unlock my online wallet you need a 4-digit password. <enter>')
@@ -92,15 +90,17 @@ while True:
 
 input('Did you do it? (y/n) ')
 input("Nice. I also found my wallet but figured I didn't have any money. <enter>")
-input("Rip Elisabeth II. I hope you won't die. Especially not in Bloons. <enter>")
-input('Theeeeeeeeeeeeeeeeeeeerefore, I need to test your gaming skills etc. <enter>\n')
+input("Rip Elisabeth II. I hope you won't die in person as well as in computer games. <enter>")
+input('Theeeeeeeeeeeeeeeeeeeerefore, I need to test your gaming skills and general knowledge. <enter>\n')
 
-input('\nQuestion 1:\tWhat defeats R28 on Cubism Chimps?\n\t\ta) 2-5-0 Tack Shooter\n\t\tb) 0-2-5 Sniper\n\t\tc) 5-0-2 Sub\n\t\td) 2-0-5 Dartling')
+input('\nQuestion 1:\tWhat defends R28 on Cubism Chimps?\n\t\ta) 2-5-0 Tack Shooter\n\t\tb) 0-2-5 Sniper\n\t\tc) 5-0-2 Sub\n\t\td) 2-0-5 Dartling')
 input('\nQuestion 2:\thttps://lichess.org/training/rtCDf')
 input('\nQuestion 3:\t--- Chess ---')
 input("\nQuestion 4:\tWhich 'Game of Thrones'-Character appears in more episodes than any other?")
 input('\nQuestion 5:\tWelches Level in Titan Quest hat der Charakter am Ende von Hades auf "Normal" erreicht, mit dem der Speedrun Weltrekord aufgestellt wurde.\n\t\ta) 13\n\t\tb) 19\n\t\tc) 25\n\t\td) 31')
 input('\nQuestion 6:\tInformatik <enter>')
+image = mpimg.imread('pic1.png')
+plt.imshow(image)
 plt.show()
 input('\nQuestion 7:\t--- Politics ---')
 input('\nQuestion 8:\tWas davon trifft auf die meisten in Deutschland studierenden Menschen zu (Stand 2021)?\n\t\ta) Sie sind im deutschen Schachbund\n\t\tb) Sie leben in Darmstadt\n\t\tc) Sie studieren Informatik\n\t\td) Sie studieren Psychologie')
@@ -142,7 +142,7 @@ for x in i:
         print('x')\n\n''')
 
 while True:
-    if input('Correct Code: ') == '2':
+    if input('Output of correct code: ') == 'What if? 2':
         print('Congratulations!')
         image = mpimg.imread('pic2.png')
         plt.imshow(image)
@@ -151,6 +151,8 @@ while True:
     else:
         pass
 
+#
+#
 #
 #
 #
