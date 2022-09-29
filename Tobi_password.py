@@ -184,5 +184,5 @@ Q6: 7 mal 3 Monate = 21
 Q7: d) FDP
 Q8: b) Darmstadt (160.000) [a) 90.000   c)140.000   d) 105.000]
 Q9: a) Dietzenbach
-Q10: 2134
+Q10: 2143
 """
